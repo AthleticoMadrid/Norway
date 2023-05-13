@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Norway</title>
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./libs/tiny-slider/tiny-slider.css">
+    </head>
+    <body>
+
+        <header class="header">
+
+            <!-- Слайдер -->
+            <div class="header-slider">
+                <img src="./img/main-img/01.jpg" alt="Bg 1" class="header-slider_item"/>
+                <img src="./img/main-img/02.jpg" alt="Bg 2" class="header-slider_item"/>
+                <img src="./img/main-img/03.jpg" alt="Bg 3" class="header-slider_item"/>
+                <img src="./img/main-img/04.jpg" alt="Bg 4" class="header-slider_item"/>
+                <img src="./img/main-img/05.jpg" alt="Bg 5" class="header-slider_item"/>
+                <img src="./img/main-img/06.jpg" alt="Bg 6" class="header-slider_item"/>
+            </div>
+
+            <!-- Управление слайдером -->
+            <div class="header-slider-controls">
+                <div class="header-slider-controls_arrows">
+                    <button id="sliderPrev"><img src="./img/arrows/arrow-left.svg" alt="Prew"></button>
+                    <button id="sliderNext"><img src="./img/arrows/arrow-right.svg" alt="Next"></button>
+                </div>
+
+                <div class="header-slider-controls_count">
+                    <span class="header-slider-controls_count-current" id="sliderCurrent">01</span>
+                    /
+                    <span id="sliderTotal">06</span>
+                </div>
+            </div>
+
+            <!-- Контент в шапке -->
+            <div class="header_content">
+                <nav class="header-nav">
+                    <div class="logo">
+                        <img src="./img/logos/logo.png" alt="Logo">
+                        <img class="logo-text" src="./img/logos/logo-text.svg" alt="TRAVELx">
+                    </div>
+
+                    <ul class="nav">
+                        <li class="nav_item">
+                            <a href="#!" class="nav_link">Destinations</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#!" class="nav_link">Activities</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#!" class="nav_link">About Us</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#!" class="nav_link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="extra-nav-btn">
+                        <img src="./img/icons/nav-icon.svg" alt="Nav btn">
+                    </button>
+                </nav>
+
+                <div class="header-title">
+                    
+                    <div class="header-title_small">EXPLORE</div>
+                    <h1 class="header-title_big">Norway</h1>
+
+                    <ul class="header-socials">
+                        <li>
+                            <a href="#">
+                                <img src="./img/socials/facebook.svg" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/socials/twitter.svg" alt="Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/socials/instagram.svg" alt="Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <div class="header-tips">
+                    <a href="#!" class="tip">
+                        <span class="tip_title">Trondheim</span>
+                        <span class="tip_text">Plan a trip</span>
+                    </a>
+                    <a href="#!" class="tip">
+                        <span class="tip_title">Geirangerfjord</span>
+                        <span class="tip_text">Plan a trip</span>
+                    </a>
+                    <a href="#!" class="tip">
+                        <span class="tip_title">Lofoten</span>
+                        <span class="tip_text">Plan a trip</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Абсолютные элементы в шапке -->
+            <a href="#!" class="header-seemore">SEE MORE</a>
+
+        </header>
+
+        <script src="./libs/tiny-slider/min/tiny-slider.js"></script>
+        <script src="./js/main.js"></script>
+        
+    </body>
+</html>
